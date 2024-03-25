@@ -78,8 +78,8 @@ summary {
 body {
   margin: 0;
   position: relative;
-  background-color: #212C42;
-  font-family: "lato", sans-serif;
+  background-color: #F5F5F5;
+  font-family: "Outfit", sans-serif;
   text-align: center;
 }
 
@@ -202,11 +202,11 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0 0 0.67em;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 400 44px/1.1 "lato", sans-serif;
+  font: 400 44px/1.1 "Outfit", sans-serif;
   font-size: 26px;
   font-weight: 300;
   display: block;
@@ -376,17 +376,16 @@ address {
 }
 
 p {
-  font: 400 19px/30px "lato", sans-serif;
+  font: 400 20px/30px "Outfit", sans-serif;
   color: #000;
 }
 
 h2 {
   text-align: left;
-  color: #212C42;
+  color: #244E60;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1.2;
-  font-family: "meno-banner", serif !important;
 }
 
 h3 {
@@ -396,7 +395,7 @@ h3 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "lato", sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 .progress {
@@ -446,9 +445,9 @@ details {
 figcaption {
   display: block;
   text-align: center;
-  font: 400 18px/1 "lato", sans-serif;
+  font: 400 18px/1 "Outfit", sans-serif;
   text-transform: uppercase;
-  color: #E1932E;
+  color: #F28121;
 }
 
 strong {
@@ -456,7 +455,7 @@ strong {
   font-weight: 400;
   display: block;
   font-size: 28px;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   text-transform: uppercase;
 }
 
@@ -486,10 +485,10 @@ header .address {
   letter-spacing: 0.55px;
 }
 header .address:hover {
-  color: #E1932E;
+  color: #F28121;
 }
 header .address i:before {
-  color: #E1932E;
+  color: #F28121;
   font-size: 22px;
   margin-left: -10px;
   margin-right: 15px;
@@ -511,49 +510,46 @@ header #nav #header-btn {
   justify-content: flex-end;
   display: flex;
 }
-header #nav .btn {
+header #nav #header-btn .btn {
   margin: 0;
-  padding: 13px 30px;
+  padding: 15px 30px 13px;
   text-transform: uppercase;
   display: flex;
   transition: 0.3s all ease;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 18px;
-  background-color: #E1932E;
-  max-width: 355px;
+  background-color: #F28121;
+  max-width: 375px;
   display: flex;
   color: #fff;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 700;
   letter-spacing: normal;
   border-radius: 30px;
 }
-header #nav .btn i:before {
+header #nav #header-btn .btn i:before {
   margin-right: 10px;
   margin-top: -2px;
 }
-header #nav .btn span {
+header #nav #header-btn .btn span {
   display: block;
   width: 100%;
   font-size: 44px;
   text-transform: uppercase;
   font-weight: 600;
 }
-header #nav .btn:hover {
-  background-color: #212C42;
+header #nav #header-btn .btn:hover {
+  background-color: #244E60;
   color: #fff;
 }
-header #nav .logo img {
-  max-width: 240px;
-}
 header #nav #header-details .pho {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 35px;
 }
 header #nav #header-details .pho:hover {
-  color: #E1932E;
+  color: #F28121;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -584,15 +580,17 @@ header #nav #mobile-btns .phone, header #nav #mobile-btns .btn {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  font-family: "Outfit", sans-serif;
 }
 header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #BD7416;
+  background-color: #4B95B3;
   color: #fff;
   font-size: 20px;
   line-height: 1.3;
+  font-weight: 700;
 }
 header #nav #mobile-btns .phone span {
   text-transform: uppercase;
@@ -607,7 +605,7 @@ header #nav #mobile-btns #mobile-special .container {
   padding: 5px;
 }
 header #nav #mobile-btns #mobile-special .container h4 {
-  color: #F3EAE1;
+  color: #F5F5F5;
   font-size: 22px;
   margin: 0;
 }
@@ -640,11 +638,11 @@ header #nav #mobile-btns #mobile-special .container small {
 #safe-bar {
   width: 100%;
   position: relative;
-  background: #212C42;
+  background: #244E60;
   z-index: 10;
   box-shadow: 1.6px 2.5px 13px rgba(7, 8, 8, 0.35);
   color: #fff;
-  font: 400 24px/1.2 "lato", sans-serif;
+  font: 400 24px/1.2 "Outfit", sans-serif;
   padding: 10px;
   text-align: center;
   flex-wrap: wrap;
@@ -661,7 +659,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .pho {
   display: flex;
   color: #000;
-  font: 700 37px/30px "lato", sans-serif;
+  font: 700 37px/30px "Outfit", sans-serif;
 }
 .pho span {
   display: block;
@@ -669,17 +667,17 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .pho:hover {
-  color: #E1932E;
+  color: #F28121;
 }
 .pho i {
   display: flex;
   align-items: center;
 }
 .pho i:before {
-  color: #E1932E;
+  color: #F28121;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
@@ -717,9 +715,9 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   margin: 0;
   max-width: 1040px;
-  background-color: #212C42;
+  background-color: #244E60;
   padding: 20px 10px 30px;
-  flex: 0 1 544px;
+  flex: 0 1 50%;
   height: 340px;
   padding: 40px 0;
 }
@@ -727,16 +725,16 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 500 50px/1.1 "meno-banner", serif;
+  font: 700 50px/1.1 "Merriweather", serif;
   position: relative;
   line-height: 1;
   margin-top: 0;
-  font-family: "meno-banner", serif;
+  font-family: "Merriweather", serif;
 }
 .personalized h2 span {
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   letter-spacing: normal;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400;
   text-transform: none;
   display: block;
@@ -747,15 +745,15 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   line-height: 1;
   margin-top: 0;
-  font-weight: 500;
-  font-family: "meno-banner", serif;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
   font-size: 50px;
 }
 .personalized h1 span {
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   letter-spacing: normal;
   text-transform: none;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400;
   display: block;
   margin-bottom: 5px;
@@ -776,7 +774,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   line-height: 1.25;
   font-weight: 300;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .address:hover {
   color: #000;
@@ -788,16 +786,16 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   margin: 3px auto;
   padding: 12px 30px;
-  color: #E1932E;
+  color: #F28121;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #E1932E;
+  background-color: #F28121;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn:hover {
-  background-color: #E1932E;
-  background-color: #E1932E;
+  background-color: #F28121;
+  background-color: #F28121;
   color: #000;
   color: #000;
 }
@@ -811,13 +809,13 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #E1932E;
+  background-color: #F28121;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn-alt:hover {
-  background-color: #E1932E;
-  background-color: #E1932E;
+  background-color: #F28121;
+  background-color: #F28121;
   color: #000;
   color: #000;
 }
@@ -839,22 +837,24 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .split article h2 {
   margin-top: 10px;
+  font-size: 45px;
 }
 .split article h3 {
   text-transform: uppercase;
   position: relative;
   display: flex;
+  font-family: "Outfit", sans-serif;
   flex-wrap: wrap;
   font-size: 18px;
   align-items: center;
   letter-spacing: 3px;
-  color: #BD7416;
+  color: #F28121;
 }
 .split article h3:before {
   content: "";
   width: 50px;
   height: 2px;
-  background-color: #E1932E;
+  background-color: #F28121;
   margin-right: 10px;
 }
 .split figure img {
@@ -864,6 +864,16 @@ header #nav #mobile-btns #mobile-special .container small {
 .split.even figure {
   order: -1;
   margin-right: 40px;
+}
+
+#bg-1 {
+  background-color: #244E60;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+#we {
+  margin-top: 70px;
 }
 
 #banner {
@@ -894,26 +904,30 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   background: rgba(255, 255, 255, 0.8);
   padding: 5px 20px;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.65px;
 }
 
+#banner-bar-mobile {
+  display: none;
+}
+
 #banner-bar {
   position: relative;
-  top: -80px;
-  background-color: #F3EAE1;
+  top: -120px;
+  background-color: #F5F5F5;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 1px 3px 3px lightgray;
-  max-width: 1200px;
+  max-width: 1150px;
 }
 #banner-bar #top-dentist {
   display: none;
 }
 #banner-bar h2 {
-  font-family: "lato", sans-serif !important;
+  font-family: "Outfit", sans-serif !important;
   font-size: 32px;
   color: #000;
   text-transform: none;
@@ -937,17 +951,19 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   justify-content: space-between;
   flex-wrap: nowrap;
-  max-width: 1100px;
-  border-top: 1px solid #F3EAE1;
-  border-bottom: 1px solid #F3EAE1;
+  max-width: 1150px;
+  border-top: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
   margin: 0 auto;
 }
 .lists .flex-ed {
   justify-content: space-around;
+  align-items: center;
 }
 .lists .flex-ed .image {
   display: flex;
   align-items: center;
+  flex: 0 1 50%;
 }
 .lists .flex-ed .image img {
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
@@ -986,13 +1002,13 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #light-bkg {
-  background-color: #F3EAE1;
+  background-color: #F5F5F5;
   padding-top: 70px;
 }
 
 #credentials {
-  border-top: 5px solid #E1932E;
-  border-bottom: 5px solid #E1932E;
+  border-top: 5px solid #F28121;
+  border-bottom: 5px solid #F28121;
   margin: 50px auto;
 }
 #credentials > div {
@@ -1059,7 +1075,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li {
   width: 100%;
   color: #fff;
-  font: 400 24px/1.2 "lato", sans-serif;
+  font: 400 24px/1.2 "Outfit", sans-serif;
   letter-spacing: 0.6px;
   padding-left: 32px;
   padding-top: 10px;
@@ -1069,7 +1085,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li:before {
   content: "\e832";
   font-family: "fontello";
-  color: #E1932E;
+  color: #F28121;
   font-size: 0.9em;
   position: absolute;
   top: 10px;
@@ -1129,7 +1145,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .insurance .container {
   max-width: 1220px;
-  margin: auto;
+  margin: 10px auto 40px;
   padding: 0 30px;
   text-align: center;
 }
@@ -1162,19 +1178,22 @@ header #nav #mobile-btns #mobile-special .container small {
   z-index: 2;
   padding: 10px 20px 15px;
   margin: 0 auto -15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  font-size: 45px;
   justify-content: center;
-  font-family: "meno-banner", serif;
+  font-family: "Merriweather", serif;
 }
 .insurance h2 span {
   margin: 0 10px;
-  color: #F3EAE1;
+  color: #F5F5F5;
 }
 .insurance h2:after {
   content: "";
   height: 2px;
   flex: 1;
   margin-left: 70px;
-  background-color: #E1932E;
+  background-color: #F28121;
 }
 .insurance .flex-ed {
   display: flex;
@@ -1188,12 +1207,11 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 5px 10px;
 }
 .insurance p {
-  line-height: 28px;
   margin: 10px auto;
 }
 .insurance #disclaimer {
   opacity: 0.4;
-  font: 400 14px/1 "lato", sans-serif;
+  font: 400 14px/1 "Outfit", sans-serif;
   margin-top: 20px;
   text-align: center;
 }
@@ -1214,7 +1232,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 5px;
 }
 #dentist article h2 span {
-  color: #F3EAE1;
+  color: #F5F5F5;
 }
 #dentist figure {
   position: relative;
@@ -1226,19 +1244,16 @@ header #nav #mobile-btns #mobile-special .container small {
   width: 100%;
   padding: 10px;
   background: rgba(255, 255, 255, 0.9);
-}
-#dentist figure figcaption a {
   color: #000;
   font-weight: 500;
   font-weight: 600;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
+}
+#dentist figure figcaption a {
+  color: #000;
 }
 #dentist figure figcaption a:hover {
-  color: #E1932E;
-}
-#dentist figure figcaption span {
-  margin: 0 10px;
-  color: #000;
+  color: #F28121;
 }
 
 .caption {
@@ -1246,14 +1261,14 @@ header #nav #mobile-btns #mobile-special .container small {
   display: table;
   margin: -20px auto 20px;
   padding: 0 5px;
-  color: #E1932E;
+  color: #F28121;
 }
 .caption a {
-  color: #E1932E;
+  color: #F28121;
   display: inline-block;
   padding: 10px;
   text-align: center;
-  font: 400 16px/1 "lato", sans-serif;
+  font: 400 16px/1 "Outfit", sans-serif;
   bottom: 0;
   margin: auto;
 }
@@ -1291,7 +1306,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
 }
 #review-container .comment p {
-  font: 400 33px/38px "lato", sans-serif;
+  font: 400 33px/38px "Outfit", sans-serif;
   margin-top: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1303,7 +1318,7 @@ header #nav #mobile-btns #mobile-special .container small {
   flex-wrap: wrap;
 }
 #review-container .comment #caption .caption2 {
-  font: 700 18px/1 "lato", sans-serif;
+  font: 700 18px/1 "Outfit", sans-serif;
   text-transform: uppercase;
   margin: 10px 20px 10px 0;
   letter-spacing: 1.95px;
@@ -1313,7 +1328,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #practice {
-  background-color: #F3EAE1;
+  background-color: #F5F5F5;
   padding: 40px 15px 60px;
 }
 #practice h2 {
@@ -1324,19 +1339,19 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px 0;
   margin: auto;
   justify-content: center;
-  font-family: "meno-banner", serif;
+  font-family: "Merriweather", serif;
   text-align: center;
 }
 #practice h2 span {
   margin: 0 10px;
-  color: #F3EAE1;
+  color: #F5F5F5;
 }
 #practice h2:after {
   content: "";
   height: 2px;
   flex: 1;
   margin-left: 70px;
-  background-color: #E1932E;
+  background-color: #F28121;
 }
 #practice p {
   text-align: left;
@@ -1350,7 +1365,6 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 #practice .flex-ed {
   justify-content: space-between;
-  max-width: 1120px;
   margin: auto;
   flex-wrap: nowrap;
 }
@@ -1371,7 +1385,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin-left: 14px;
 }
 #practice .pager span.cycle-pager-active {
-  background-color: #E1932E;
+  background-color: #F28121;
 }
 
 #contact {
@@ -1413,7 +1427,7 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
 }
 .simple input:focus {
-  box-shadow: inset 0 3px 0 #31A8D1;
+  box-shadow: inset 0 3px 0 #F28121;
 }
 .simple textarea {
   height: 80px;
@@ -1450,7 +1464,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: #E1932E;
+  color: #F28121;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
@@ -1462,9 +1476,9 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .hours p {
   font-size: 17px;
-  color: #E1932E;
+  color: #F28121;
   line-height: 1.5;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
   text-align: left !important;
 }
 
@@ -1489,7 +1503,7 @@ footer {
   display: block;
   z-index: 102;
   padding-top: 30px;
-  background-color: #212C42;
+  background-color: #244E60;
 }
 footer .container {
   max-width: 1200px;
@@ -1502,7 +1516,7 @@ footer .container h2 {
   margin: 0;
 }
 footer .container h2 span {
-  color: #F3EAE1;
+  color: #F5F5F5;
 }
 footer .container h3 {
   text-transform: uppercase;
@@ -1512,14 +1526,15 @@ footer .container h3 {
   font-size: 18px;
   align-items: center;
   letter-spacing: 3px;
-  color: #BD7416;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
   margin: 0;
 }
 footer .container h3:before {
   content: "";
   width: 50px;
   height: 2px;
-  background-color: #E1932E;
+  background-color: #fff;
   margin-right: 10px;
 }
 footer .flex-ed {
@@ -1535,7 +1550,7 @@ footer .flex-ed #footer-info, footer .flex-ed #map {
 footer #footer-info {
   padding: 0;
   background: transparent;
-  border: 1px solid #F3EAE1;
+  border: 1px solid #F5F5F5;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -1573,7 +1588,7 @@ footer #contact h3 {
 }
 footer .phone {
   font-size: 31px;
-  color: #E1932E;
+  color: #F28121;
   margin: 30px auto 0;
   font-weight: 700;
   line-height: 1;
@@ -1582,7 +1597,7 @@ footer .phone {
   letter-spacing: 0.28px;
 }
 footer .phone:hover {
-  color: #F3EAE1;
+  color: #F5F5F5;
 }
 footer .phone small {
   font-size: 19px;
@@ -1592,20 +1607,20 @@ footer .phone small {
 }
 footer .address {
   font-size: 20px;
-  color: #E1932E;
+  color: #fff;
   line-height: 25px;
   margin: 5px;
 }
 footer .address:hover {
-  color: #fff;
+  color: #F28121;
 }
 
 .copy {
-  padding: 30px 10px;
+  padding: 40px 10px;
   background-color: #000;
   margin: auto;
   letter-spacing: 1px;
-  font: 300 14px/1.4 "lato", sans-serif;
+  font: 300 14px/1.4 "Outfit", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1617,7 +1632,7 @@ footer .address:hover {
   line-height: 18px;
 }
 .copy a {
-  color: #E1932E;
+  color: #F28121;
 }
 .copy a:hover {
   color: #fff;
@@ -1705,7 +1720,10 @@ footer .address:hover {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "lato", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+#lp-appointment-form .btn:hover {
+  background-color: #244E60;
 }
 
 /* -- video -- */
@@ -1858,11 +1876,11 @@ footer .address:hover {
 }
 
 #fixed-tabs .ra, #fixed-tabs .map {
-  background-color: #E1932E;
+  background-color: #F28121;
 }
 
 #fixed-tabs .call {
-  background-color: #212C42;
+  background-color: #244E60;
   color: #fff;
 }
 
@@ -1989,14 +2007,24 @@ footer .address:hover {
     display: flex;
     flex-wrap: wrap;
   }
-  .personalized h2 span {
-    width: 100%;
-  }
-  .personalized h2 {
-    display: block;
-  }
   footer .address {
     font-size: 18px;
+  }
+  #bg-1 {
+    padding-top: 20px;
+  }
+  #banner-bar-mobile {
+    display: block;
+    padding: 30px 10px 10px;
+  }
+  #banner-bar-mobile > div h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    color: #000;
+  }
+  #banner-bar {
+    display: none;
   }
   header address .address {
     display: none;
@@ -2014,7 +2042,7 @@ footer .address:hover {
   header #nav .btn {
     max-width: none;
   }
-  header #nav .btn, header #nav #header-details {
+  header #nav #header-details, header #nav #header-btn {
     display: none;
   }
   header #nav .logo {
@@ -2035,6 +2063,18 @@ footer .address:hover {
   .lists {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .lists .flex-ed .image {
+    flex: auto;
+  }
+  .lists .personalized {
+    flex: auto;
+  }
+  .lists .personalized h2 {
+    display: block;
+  }
+  .lists .personalized h2 span {
+    width: 100%;
   }
   .list ul {
     max-width: 490px;
@@ -2072,9 +2112,8 @@ footer .address:hover {
     padding: 0;
     padding-bottom: 60px;
   }
-  #dentist figure a {
-    bottom: 60px;
-    max-height: 47px;
+  #dentist figure figcaption {
+    display: none;
   }
   #reviews {
     padding: 0;
@@ -2101,6 +2140,19 @@ footer .address:hover {
   }
   #patients {
     display: block;
+  }
+  .insurance {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .insurance .container:last-of-type {
+    margin-bottom: 0;
+  }
+  .insurance .container h2 {
+    font-size: 40px;
+  }
+  h2 {
+    font-family: "Merriweather", serif;
   }
   footer h2 {
     font-size: 50px;
@@ -2139,11 +2191,6 @@ footer .address:hover {
     margin: auto;
   }
 }
-@media (min-width: 900px) {
-  #mobile-btns {
-    display: none;
-  }
-}
 @media (max-width: 900px) {
   .insurance #awards-list span {
     margin: 20px auto;
@@ -2172,7 +2219,7 @@ footer .address:hover {
     width: 150px;
     margin: auto;
     height: 2px;
-    background-color: #E1932E;
+    background-color: #F28121;
     position: absolute;
   }
   footer .container h2 {
@@ -2214,6 +2261,14 @@ footer .address:hover {
   header #nav {
     padding: 0;
   }
+  header #nav .logo {
+    width: 100%;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+  header #nav .logo img {
+    max-width: none;
+  }
   header .btn-alt {
     flex: 0 1 50%;
     border-radius: 0;
@@ -2222,14 +2277,6 @@ footer .address:hover {
   }
   header .btn-alt span {
     font-size: 26px;
-  }
-  header .logo {
-    width: 100%;
-    margin: 10px 20px;
-    max-width: 100%;
-  }
-  header .logo img {
-    max-width: 200px;
   }
   header .header-info {
     display: flex;
@@ -2241,7 +2288,7 @@ footer .address:hover {
   header .header-info .phone {
     font-size: 21px;
     padding: 10px;
-    background-color: #F3EAE1;
+    background-color: #F5F5F5;
     color: #fff;
     flex: 0 1 50%;
   }
@@ -2315,7 +2362,7 @@ footer .address:hover {
     margin: 30px 20px;
   }
   .lists .personalized {
-    border: 1px solid #F3EAE1;
+    border: 1px solid #F5F5F5;
     margin: 30px 20px 0;
     padding: 30px 20px 0;
     height: auto;
@@ -2476,11 +2523,20 @@ footer .address:hover {
     font-size: 14px;
   }
   .insurance {
+    margin-top: 0;
     padding: 0;
-    margin: 0 auto;
+  }
+  .insurance .container {
+    margin-bottom: 0;
   }
   .insurance .container p {
     text-align: center;
+  }
+  .insurance .container #insurance-list {
+    margin-bottom: 0;
+  }
+  .insurance .container #insurance-list span {
+    width: 100%;
   }
   .split article h3 {
     display: none;
@@ -2515,6 +2571,7 @@ footer .address:hover {
     font-size: 20px;
   }
   #safe-bar span {
+    font-size: 18px;
     margin: 0;
     width: 100%;
   }
