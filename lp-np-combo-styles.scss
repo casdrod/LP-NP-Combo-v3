@@ -203,11 +203,12 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	color: #fff;
 	font: 400 24px/1.2 $font;
 	padding: 10px;
-	text-align: center;
-	span {
-		margin: 0 30px;
-	}flex-wrap:wrap;display: flex;justify-content: center; 
+	text-align: center;flex-wrap:wrap;display: flex;justify-content: center; 
+	span {margin: 0 30px;}
     div {margin: 0 30px;}
+	a {color:#fff;
+		&:hover {color: $primary;}
+	}
 }
 
 .pho{display:flex;color:#000;font:700 37px/30px $font;
@@ -414,8 +415,8 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	article {
 		margin: 10px;
 		-webkit-box-flex: 0;
-		-ms-flex: 0 1 585px;
-		flex: 0 1 585px;
+		-ms-flex: 0 1 555px;
+		flex: 0 1 555px;
 		h3, h2 {margin: 0;}
 		h2 {margin-top: 10px;font-size: 45px;}
 		h3 {text-transform:uppercase;position: relative;display:flex;font-family: $font;flex-wrap:wrap;font-size: 18px;align-items:center;letter-spacing: 3px;color: $primary;
@@ -476,13 +477,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 #banner-bar-mobile {display:none;}
 
 #banner-bar {
-	position: relative;
-	top: -120px;
-	background-color: $tertiary;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 1px 3px 3px lightgray;
-	max-width: 1150px;
+	position:relative;top:-130px;background-color:#f5f5f5;margin:0 auto;border-radius:10px;box-shadow:1px 3px 3px #d3d3d3;max-width:1200px;left: 20px;
 	#top-dentist {display:none;}
 	h2 {
 		font-family: $font!important;
@@ -818,6 +813,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		padding: 35px 50px 45px;
 		text-align: left;
 		margin: auto;
+		#mobile-google {display:none;}
 		img {margin: 0;}
 		p {
 			font: 400 33px/38px $font;
@@ -1532,11 +1528,23 @@ color: #fff;
 		}
 	}
 	#reviews {
-		padding: 0;
+		padding: 60px 25px;
 	}
 	#review-container {
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: wrap;background: #fff;border-radius: 20px;
+		.comment {padding: 60px 15px 50px;
+			p {color: #000;}
+			#desktop-google {display:none;}
+			#mobile-google {display:block;
+				h3 {margin: 25px 40px;color: #000; font-family: "Outfit", sans-serif;letter-spacing: 2px;text-transform: uppercase; font-size: 18px; font-weight: 500; text-align:center;}
+				.star {text-align:center;}
+				h3 img {margin: 10px auto;}
+			}
+			#caption {
+				.caption2 {margin: 10px auto;}
+			}
+		}
 	}
 	#google {
 		-webkit-box-flex: 0;
@@ -1630,7 +1638,7 @@ color: #fff;
 			&:after {margin: auto;}
 		}
 	}
-	#review-container .comment {padding: 35px 0 45px;
+	#review-container .comment {
 		img {margin: auto;}
 	}
 }
@@ -1684,7 +1692,7 @@ color: #fff;
 		}
 	}
 	#safe-bar {
-		span {
+		span {display:block;
 			&:nth-of-type(2) {
 				display: none;
 			}
@@ -1795,7 +1803,6 @@ color: #fff;
 		text-align: center;
 	}
 	#reviews {
-		padding: 40px 25px;
 		#review-container {
 			#google {border-radius:10px 10px 0 0;flex: auto;}
 			.comment {
@@ -1986,7 +1993,14 @@ color: #fff;
 		margin-top: 0;
 	}
 	.copy {
-		padding: 30px 10px 50px;
+		padding: 30px 10px 50px;font-size: 12px; font-weight: 400;
+		span {
+			&:nth-of-type(2), &:nth-of-type(4) {display:none;}
+		}
+		> span {
+			&:first-of-type, &:last-of-type {display:block;}
+		}
+		p {font-size: 12px;}
 	}
 	.looking {
 		.flex-ed {
@@ -2047,14 +2061,6 @@ color: #fff;
 	}
 	.bkgrd {
 		padding-bottom: 25px;
-	}
-	.copy {
-		span {
-			&:last-of-type {
-				display: block;
-				font-size: 0;
-			}
-		}
 	}
 	.header-info {
 		.phone {
@@ -2117,7 +2123,7 @@ color: #fff;
 			margin: 10px 0 -15px;
 			padding: 10px 0 25px;
 		}
-		.container {padding: 30px 10px;}
+		.container {padding: 30px 15px;}
 		.flex-ed {
 			div {
 				margin: 15px 18px;

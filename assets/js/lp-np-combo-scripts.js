@@ -51,6 +51,8 @@ $(function () {
   $("#stamp").prependTo("#banner")
   $(".appt-bar .extract").prependTo("#banner figure");
   $("#banner h1").appendTo("#banner figure");
+  $("#review-container .comment #caption .star").prependTo("#review-container .comment #mobile-google");
+
 //   $("#practice .flex-ed").cycle({
 //               slides: ">div",
 //               pager: "#practice .pager",

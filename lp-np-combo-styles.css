@@ -655,6 +655,12 @@ header #nav #mobile-btns #mobile-special .container small {
 #safe-bar div {
   margin: 0 30px;
 }
+#safe-bar a {
+  color: #fff;
+}
+#safe-bar a:hover {
+  color: #F28121;
+}
 
 .pho {
   display: flex;
@@ -830,7 +836,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .split article {
   margin: 10px;
-  flex: 0 1 585px;
+  flex: 0 1 555px;
 }
 .split article h3, .split article h2 {
   margin: 0;
@@ -916,12 +922,13 @@ header #nav #mobile-btns #mobile-special .container small {
 
 #banner-bar {
   position: relative;
-  top: -120px;
-  background-color: #F5F5F5;
+  top: -130px;
+  background-color: #f5f5f5;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 1px 3px 3px lightgray;
-  max-width: 1150px;
+  box-shadow: 1px 3px 3px #d3d3d3;
+  max-width: 1200px;
+  left: 20px;
 }
 #banner-bar #top-dentist {
   display: none;
@@ -1301,6 +1308,9 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 35px 50px 45px;
   text-align: left;
   margin: auto;
+}
+#review-container .comment #mobile-google {
+  display: none;
 }
 #review-container .comment img {
   margin: 0;
@@ -2116,10 +2126,43 @@ footer .address:hover {
     display: none;
   }
   #reviews {
-    padding: 0;
+    padding: 60px 25px;
   }
   #review-container {
     flex-wrap: wrap;
+    background: #fff;
+    border-radius: 20px;
+  }
+  #review-container .comment {
+    padding: 60px 15px 50px;
+  }
+  #review-container .comment p {
+    color: #000;
+  }
+  #review-container .comment #desktop-google {
+    display: none;
+  }
+  #review-container .comment #mobile-google {
+    display: block;
+  }
+  #review-container .comment #mobile-google h3 {
+    margin: 25px 40px;
+    color: #000;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+  #review-container .comment #mobile-google .star {
+    text-align: center;
+  }
+  #review-container .comment #mobile-google h3 img {
+    margin: 10px auto;
+  }
+  #review-container .comment #caption .caption2 {
+    margin: 10px auto;
   }
   #google {
     flex: 0 1 100%;
@@ -2241,9 +2284,6 @@ footer .address:hover {
   .insurance h2:after {
     margin: auto;
   }
-  #review-container .comment {
-    padding: 35px 0 45px;
-  }
   #review-container .comment img {
     margin: auto;
   }
@@ -2294,6 +2334,9 @@ footer .address:hover {
   }
   header .header-info .phone small {
     color: #fff;
+  }
+  #safe-bar span {
+    display: block;
   }
   #safe-bar span:nth-of-type(2) {
     display: none;
@@ -2399,9 +2442,6 @@ footer .address:hover {
   }
   .comment {
     text-align: center;
-  }
-  #reviews {
-    padding: 40px 25px;
   }
   #reviews #review-container #google {
     border-radius: 10px 10px 0 0;
@@ -2624,6 +2664,17 @@ footer .address:hover {
   }
   .copy {
     padding: 30px 10px 50px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .copy span:nth-of-type(2), .copy span:nth-of-type(4) {
+    display: none;
+  }
+  .copy > span:first-of-type, .copy > span:last-of-type {
+    display: block;
+  }
+  .copy p {
+    font-size: 12px;
   }
   .looking .flex-ed {
     display: block;
@@ -2681,10 +2732,6 @@ footer .address:hover {
   .bkgrd {
     padding-bottom: 25px;
   }
-  .copy span:last-of-type {
-    display: block;
-    font-size: 0;
-  }
   .header-info .phone {
     flex: 0 1 100%;
   }
@@ -2734,7 +2781,7 @@ footer .address:hover {
     padding: 10px 0 25px;
   }
   .insurance .container {
-    padding: 30px 10px;
+    padding: 30px 15px;
   }
   .insurance .flex-ed div {
     margin: 15px 18px;
